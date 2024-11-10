@@ -28,26 +28,34 @@
     <fieldset>
     <legend>Eliga la opcion de entrega</legend>
         <input type="radio" id="domicilio" name="entrega" value="a domicilio">
-        <label for="a domicilio">A domicilio</label><br>
+        <label for="domicilio">A domicilio</label><br>
         <input type="radio" id="correo" name="entrega" value="por correo">
-        <label for="por correo">Por correo</label><br>
+        <label for="correo">Por correo</label><br>
     </fieldset>
     <fieldset>
      <legend>Eliga su tamaño</legend>
      <label for="tamaño">Tamaños disponibles:</label>
-     <select name="tamaño" id="menu">
+     <select name="tamaño" id="tamaño">
      <option value="pequeño">Pequeño</option>
      <option value="mediano">Mediano</option>
      <option value="grande">Grande</option>
      <option value="extragrande">Extragrande</option>   
      </select><br>
      <label for="contenido">Contenidos disponibles:</label> 
-     <select name="contenido" id="contenido" >  
-     <option value="pizza">Anchoas</option>
-     <option value="pasta">Barcacoa</option>
-     <option value="sushi">4 quesos</option>
-     <option value="carne">Vegetal</option>
+     <select name="contenido" id="contenido">  
+     <option value="anchoas">Anchoas</option>
+     <option value="barbacoa">Barcacoa</option>
+     <option value="4_quesos">4 quesos</option>
+     <option value="Vegetal">Vegetal</option>
      </select> 
+    </fieldset>
+    <fieldset>
+    <legend>Sugerencias</legend>
+    <label for="textarea">Introduzca aqui su sugerencia</label>
+    <p></p>
+    <textarea rows="10" cols="50" id="textarea" name="textarea" placeholder="Intolerancias,eliminar ingredientes..." >
+    </textarea>
+
     </fieldset>
      </form>
      </div>
