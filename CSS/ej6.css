@@ -1,0 +1,14 @@
+#principal{
+border: solid black;
+width: 50%;
+}
+#secundario{    
+border: solid red;
+width: 33%;
+font-size: 1.2em;
+}
+#terciario{
+    border: solid blue;
+    font-size: 0.8em;
+    width: 25%;
+}
