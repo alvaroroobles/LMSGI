@@ -1,0 +1,24 @@
+*{
+   box-sizing: border-box; /* Para que el tamaño de los elementos sea independiente de la ventana */
+} /* Si está en default que es content box,los 300 de witdh son solo el contenio*/
+#primero{
+    border: solid black;
+    border-width: 5px;
+    background-color: cadetblue;
+    margin: 0px;
+    padding: 0px;
+}
+#segundo{
+    border: solid red;
+    border-width: 5px;
+    background-color: greenyellow;
+    margin: 5px;
+    padding: 5px;
+}
+#tercero{
+    border: solid blue;
+    border-width: 5px;
+    background-color:burlywood ;
+    margin: 0px;
+    padding: 20px;
+}

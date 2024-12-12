@@ -1,20 +1,20 @@
 .principal{
     background-color: blue;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 800px;
 }
 .secundario{
     background-color: red;
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 400px;
 }
 .terciario{
     background-color: green;
-    width: 25%;
-    height: 25%;
+    width: 50%;
+    height: 200px;
 }
 .cuarto{
    background-color: yellow;
-    width: 12.5%;
-    height: 12.5%;
+    width: 50%;
+    height: 100px;
 }
