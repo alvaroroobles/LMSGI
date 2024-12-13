@@ -1,6 +1,6 @@
 *{
    box-sizing: border-box; /* Para que el tamaño de los elementos sea independiente de la ventana */
-} /* Si está en default que es content box,los 300 de witdh son solo el contenio*/
+} /* Si está en default que es content box,los 300 de witdh son solo el contenio,margin auto centrar div,clear para que a una capa no le este permitido tener nada a la izq ni nada a la derecha*/
 #primero{
     border: solid black;
     border-width: 5px;
