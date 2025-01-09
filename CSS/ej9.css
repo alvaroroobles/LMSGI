@@ -6,10 +6,20 @@
     height: 100px;
 }
 #toptext{
+    position: absolute;
     float: left;
+    border: solid black;
+    padding:0px;
+    height: 50px;
+    top: 0x;
+    margin-top: 3%;
+    
 }
 #logo{
     float: right;
+    border: solid black;
+    padding:0px;
+    top: 200px;
 }
 #lefttext{
     float: left;
@@ -32,25 +42,10 @@
     height: auto;
     top: 190px;
 }
-#logo{
-    float: right;
-    border: solid black;
-    padding:0px;
-    top: 200px;
-    
-}
 #footer{
     clear: both;
     margin-top: 500px;
     background-color: gray;
     padding: 20px;
     text-align: center;
-}
-#toptext{
-    float: left;
-    border: solid black;
-    padding:0px;
-    height: 50px;
-    top: 50px;
-    margin-top: 3%;
 }
