@@ -27,9 +27,10 @@
     background-color: cadetblue;
     text-align: left;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 17px;
     margin-bottom: 50px;
     height: auto;
+    top: 190px;
 }
 #logo{
     float: right;
@@ -51,5 +52,5 @@
     padding:0px;
     height: 50px;
     top: 50px;
-    margin-top: 2%;
+    margin-top: 3%;
 }
