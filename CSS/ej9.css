@@ -4,6 +4,7 @@
 #cabecera {
     background-color: orange;
     height: 100px;
+    overflow: auto;
 }
 #toptext{
     position: absolute;
@@ -23,7 +24,6 @@
     float: left;
     width: 70%;
     background-color: pink;
-    height: auto;
     text-align: justify;
     margin-top: 20px;
     padding: 20px;
@@ -35,9 +35,8 @@
     background-color: cadetblue;
     text-align: left;
     padding: 20px;
-    margin-top: 17px;
+    margin-top: 20px;
     margin-bottom: 50px;
-    height: auto;
     top: 190px;
 }
 #footer{
