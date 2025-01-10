@@ -3,7 +3,7 @@
 }
 #cabecera {
     background-color: red;
-    height: 100px;
+    padding: 2px;
     text-align: center;
 }
 #title{
@@ -43,9 +43,8 @@
     background-color: pink;
     height: 300px;
     text-align: justify;
-    margin-top: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 40px;
+    margin-bottom: 10px;
 }
 #imagen2{
     float: left;
