@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+/*Para cambiar un elemento de en linea a bloque,display-block
+Ej para li con display-inline,
+para a,display block,a los elementos en linea el elato y el ancho no les afecta,para
+poder dejarlo ponemos inline-block
+
+a:hover,color al pasar por encima*/
 
 legend{
     color: green;
@@ -19,7 +25,7 @@ label{
 
 #contenedor{
     width: 80%;
-    background-color: rgb(232, 211, 19);
+    background-color: rgb(243, 229, 104);
 }
 #SupI{
     float: left;
